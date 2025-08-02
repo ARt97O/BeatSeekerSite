@@ -349,3 +349,19 @@
   text-transform: none;
   text-decoration: none;
 }
+/* FAQ accordion */
+.faq-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  padding: var(--dl-space-space-halfunit) 0;
+}
+
+.faq-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
