@@ -349,3 +349,13 @@
   text-transform: none;
   text-decoration: none;
 }
+body {
+  --bg-color: var(--dl-color-gray-white);
+  --text-color: var(--dl-color-gray-black);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+body.dark-mode {
+  --bg-color: var(--dl-color-gray-black);
+  --text-color: var(--dl-color-gray-white);
+}
